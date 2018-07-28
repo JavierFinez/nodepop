@@ -11,13 +11,13 @@ Node App:
                         - Body x-www-form-urlencoded
                         - name:     yourname
                         - mail:     yourmail
-                        - passowrd: yourpwd
+                        - password: yourpwd
                         
   Login User:       POST https://nodepop.javierfinez.com/apiv1/users/login
   
                         - Body x-www-form-urlencoded
                         - mail:     yourmail
-                        - passowrd: yourpwd
+                        - password: yourpwd
   
   Get Ads:          GET https://nodepop.javierfinez.com/apiv1/ads?token=VALIDJWTTOKEN
 

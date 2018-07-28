@@ -4,16 +4,20 @@ API for selling second-hand items
 
 ## DevOps
 
-Node App:           
+Node App:   
+
   Register User:    POST https://nodepop.javierfinez.com/apiv1/users/register
-                        Body x-www-form-urlencoded
-                        name:     yourname
-                        mail:     yourmail
-                        passowrd: yourpwd
+  
+                        - Body x-www-form-urlencoded
+                        - name:     yourname
+                        - mail:     yourmail
+                        - passowrd: yourpwd
+                        
   Login User:       POST https://nodepop.javierfinez.com/apiv1/users/login
-                        Body x-www-form-urlencoded
-                        mail:     yourmail
-                        passowrd: yourpwd
+  
+                        - Body x-www-form-urlencoded
+                        - mail:     yourmail
+                        - passowrd: yourpwd
   
   Get Ads:          GET https://nodepop.javierfinez.com/apiv1/ads?token=VALIDJWTTOKEN
 

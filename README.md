@@ -46,11 +46,11 @@ use that token in the rest of request in:
   - body: token
   - query string: token
 
-Test data include an user that you can use to test the API:
+Test data include an user that you can use to login and test the API:
 
-| User              | Password |
-| ----------------- | -------- |
-| johndoe@gmail.com | 1234     |
+| name   | password |
+| ------ | -------- |
+| admin  | 1234     |
 
 You can add a new user with the register method
 

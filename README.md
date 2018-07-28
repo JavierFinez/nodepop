@@ -2,6 +2,27 @@
 
 API for selling second-hand items
 
+## DevOps
+
+Node App:           
+  Register User:    POST https://nodepop.javierfinez.com/apiv1/users/register
+                        Body x-www-form-urlencoded
+                        name:     yourname
+                        mail:     yourmail
+                        passowrd: yourpwd
+  Login User:       POST https://nodepop.javierfinez.com/apiv1/users/login
+                        Body x-www-form-urlencoded
+                        mail:     yourmail
+                        passowrd: yourpwd
+  
+  Get Ads:          GET https://nodepop.javierfinez.com/apiv1/ads?token=VALIDJWTTOKEN
+
+
+Static Files:       https://nodepop.javierfinez.com/images/adds/barman.jpg
+
+Bootstrap Template: http://18.205.127.46
+
+
 ## Installation
 
 Goto Nodepop root directory and install dependencies with:
@@ -39,7 +60,7 @@ To stop de app press CTRL + C keys.
 
 ### Users
 
-In order to use the API you must be authenticated by calling HTTP method POST /apiv1/users/login with name, email & password, and get a token
+In order to use the API you must be authenticated by calling HTTP method POST /apiv1/users/register with name, email & password, and get a token with method POST /apiv1/users/login with email & password
 
 use that token in the rest of request in:
   - header: 'x-access-token'

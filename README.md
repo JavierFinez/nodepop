@@ -46,13 +46,8 @@ use that token in the rest of request in:
   - body: token
   - query string: token
 
-Test data include an user that you can use to login and test the API:
 
-| name   | password |
-| ------ | -------- |
-| admin  | 1234     |
-
-You can add a new user with the register method
+You can add a new user with the register method and use it to login and test the API 
 
 | Method | Result         | Route                 |
 | ------ | -------------- | --------------------- |
